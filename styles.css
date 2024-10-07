@@ -1,0 +1,304 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    border-radius: none;
+}
+body
+{
+    background: #000;
+    color: #fff;
+}
+.container1
+{
+    height: 100vh;
+    width: 100%;
+    background: #000;
+    padding: 5px;
+}
+.title
+{
+    position: fixed;
+    top: 5px;
+
+}
+.name
+{
+    color: #21f905f9;
+    font-size: 22px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.name h2
+{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.navbar
+{
+position: relative;
+top: -30px;
+left: 800px;
+font-size: 20px;
+font-weight: 600;
+display: flex;
+justify-content: space-around;
+}
+.navbar a
+{
+    color: #f0f1e8;
+    text-decoration: none;
+}
+.navbar a:hover
+{
+    color: #21f905f9;
+}
+.content
+{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.spc h3
+{
+    font-size: 20px;
+    color: chartreuse;
+}
+.changes h2 {
+    opacity: 0; /* hide all lines by default */
+    color: #fff;
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  
+  .changes h2.active {
+    opacity: 1; /* show the active line */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #spc
+  {
+    font-style: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+.textinfo
+{
+    width: 600px;
+   position: absolute;
+   top: 270px;
+   text-align: justify;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.textinfo p
+{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+}
+.image
+{
+    position: absolute;
+    top: 100px;
+    left: 800px;
+    
+
+}
+.image img
+{
+    height: 400px;
+    width: 400px;
+    filter: drop-shadow(0px 0px 5px cyan);
+}
+.image img:hover
+{
+    
+    filter: drop-shadow(0px 0px 5px rgb(224, 73, 128));
+}
+.wel
+{
+    position: absolute;
+    top: 560px;
+    left: 500px;
+    font-size: 24px;
+    height: 33px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    background: #17f203e3;
+}
+.skb
+{
+    margin-top: 50px;
+    text-align: center;
+}
+.skb h1
+{
+    margin-top: 80px;
+}
+.skb h1 span
+{
+    
+    color:  #17f203e3;
+    position: relative;
+}
+
+.skb h1 span:hover::after
+{
+    content: "";
+    height: 3px;
+    width: 100px;
+    background: #c5e205;
+    color: #c5e205;
+    position: absolute;
+    top: 40px;
+    left: 14px;
+
+}
+
+.sevrice
+{
+    width: 80%;
+    margin: 30px auto 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    gap: 40px;
+    margin-top: 80px;
+}
+.scard
+{
+    margin: 10px;
+    height: 300px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    background: rgb(206, 196, 215);
+    color: #000;
+    text-align: center;
+    padding-top: 20px;
+    border:5px #fff double;
+    transition: all 0.5s ease;
+
+}
+.scard:hover
+{
+   
+    color: #fff;
+    border:5px  #17f203e3 solid;
+    background: #000;
+    transform: translateY(-10px);
+    
+}
+.imgc img
+{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    border: 3px #000 solid;
+    border-radius: 20px;
+
+}
+.imgc img:hover
+{
+}
+.prot
+{
+    margin-top: 80px;
+    text-align: center;
+}
+.prot h1 span
+{
+    color: #17f203e3;
+}
+.projects
+{
+    width: 90%;
+    margin: 100px auto 50px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr ;
+    
+}
+.pcard
+{
+    height: 340px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 300px;
+    border: 2px #fff solid;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #212020;
+    gap: 10px;
+    transition: all 0.5s ease;
+}
+.pcard:hover
+{
+border:2px #fa7d08 solid;
+backdrop-filter: blur(12px);
+}
+
+.imp img
+{
+height: 180px;
+width: 220px;
+border-radius: 20px;
+}
+.dt
+{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin: 5px auto 1px ;
+}
+.dotx
+{
+    height: 12px;
+    width: 12px;
+    background: #e1b8b8;
+    border-radius: 50%;
+}
+#dot1
+{
+background: #38d205;
+}
+#dot2
+{
+background: #fff;
+}
+#dot3
+{
+    background: #e1cb06;
+
+}
+.nav
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.nav h3{
+    font-size: 16px;
+}
+.nav a
+{
+    text-decoration: none;
+    font-size: 22px;
+    margin-top: 10px;
+    border: 3px #fff solid;
+    padding: 3px;
+    color: #000;
+    background: #17f203e3;
+    transition: all 0.5s ease-in-out;
+}
+.nav a:hover
+{
+    border-radius: 20px;
+    background: #000;
+    color: #17f203e3;
+}
