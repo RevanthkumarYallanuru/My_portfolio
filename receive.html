@@ -1,0 +1,25 @@
+<h1>Received Messages</h1>
+
+<div id="messages"></div>
+
+<script>
+  // Retrieve the values from local storage
+  const name = localStorage.getItem('name');
+  const email = localStorage.getItem('email');
+  const message = localStorage.getItem('message');
+
+  // Display the received message
+  const messagesDiv = document.getElementById('messages');
+  messagesDiv.innerHTML += `
+    <p>From: ${name} (${email})</p>
+    <p>Message: ${message}</p>
+  `;
+
+  // Store the message in an array
+  const messages = [];
+  if (localStorage.getItem('messages')) {
+    messages = JSON.parse(localStorage.getItem('messages'));
+  }
+  messages.push({ name, email, message });
+  localStorage.setItem('messages', JSON.stringify(messages));
+</script>
